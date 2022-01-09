@@ -6,9 +6,8 @@
 
 ## Requirements:
 > TL;DR basically any \*nix system
-- \*nix Kernel that provides `/dev/urandom`
+- \*nix OS/Kernel that provides `/dev/urandom` and `/bin/sh`
 - Coreutils that provide `tr`, `fold`, and `head`
-- `/bin/sh`
 - (Optional) `xclip`
 
 ## Features:
