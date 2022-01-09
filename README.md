@@ -17,6 +17,7 @@
   - `randompassword 35` makes a 35 character password
 - Mix of uppercase letters, lowercase letters, and numbers
 - If you have `xclip`, it will automatically copy the generated password to your clipboard
+- [Blazing fast](/benchmark.md)
 
 ## Install:
 ### AUR: soon:tm: 
