@@ -22,12 +22,14 @@
 <!-- ```
 yay -S randompassword 
 ``` -->
-### Manual (needs `curl`, optionally `sudo`):
+### Manual
+(needs `curl`, optionally `sudo`):
 ```
 sudo curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/randompassword/main/randompassword -o /usr/bin/randompassword
 sudo chmod +x /usr/bin/randompassword
 ```
-### Run once (won't install, doesn't accept custom length, needs `curl`):
+### Run once
+(won't install, doesn't accept custom length, needs `curl`):
 ```
 curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/randompassword/main/randompassword | sh
 ```
