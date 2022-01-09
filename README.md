@@ -1,12 +1,12 @@
 ![randompassword](https://user-images.githubusercontent.com/44733677/148674869-4d0cf5ee-5386-4e4f-97b0-b8b0535c80d3.gif)
 
-`randompassword`: A super simple, POSIX *nix offline password generator in just 134 bytes.
+`randompassword`: A super simple, POSIX *nix offline password generator in just 130 bytes.
 
 ---
 
 ## Requirements:
 > TL;DR basically any \*nix system
-- 134 bytes of free storage
+- 130 bytes of free storage
 - \*nix OS/Kernel that provides `/dev/urandom` and `/bin/sh`
 - Coreutils that provide `tr`, `fold`, and `head`
 - (Optional) `xclip`
