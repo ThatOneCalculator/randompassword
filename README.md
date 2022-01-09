@@ -7,7 +7,7 @@
 ## Requirements:
 > TL;DR basically any \*nix system (i.e. Linux, \*BSD, macOS, Solaris) 
 - 142 bytes of free storage
-- \*nix OS/Kernel that provides `/dev/urandom` and `/bin/sh`
+- \*nix OS/Kernel that provides `/dev/urandom`, `/dev/null`, and `/bin/sh`
 - Coreutils that provide `tr`, `fold`, and `head`
 - (Optional) `xclip`
 
