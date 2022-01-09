@@ -1,7 +1,5 @@
 # Benchmarks
 > Run with the `time` command on a Ryzen 5800X
-> 
-> TL;DR it's absolutely instant within human standards
 
 ## Default (20 characters)
 Result: 0.004 seconds (instant)
