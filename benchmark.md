@@ -1,0 +1,45 @@
+# Benchmarks
+> Run with the `time` command on a Ryzen 5800X
+> TL;DR it's absolutely instant within human standards
+
+## Default (20)
+Result: 0.004 seconds (instant)
+```
+randompassword  0.00s user 0.00s system 123% cpu 0.004 total
+```
+
+## 100
+Result: 0.004 seconds (instant)
+```
+randompassword 100  0.00s user 0.00s system 112% cpu 0.004 total
+```
+
+## 1,000
+Result: 0.004 seconds (instant)
+```
+randompassword 1000  0.00s user 0.00s system 122% cpu 0.004 total
+```
+
+## 1,000,000
+Result: 0.062 seconds
+```
+randompassword 1000000  0.05s user 0.02s system 96% cpu 0.062 total
+```
+
+## 50,000,000
+Result: 2.99 seconds
+```
+randompassword 50000000  1.86s user 0.98s system 94% cpu 2.990 total
+```
+
+## 100,000,000
+Result: 6.134 seconds
+```
+randompassword 100000000  3.78s user 2.10s system 95% cpu 6.134 total
+```
+
+## 1,000,000,000
+Result: 1 minute, 0.17 seconds
+```
+randompassword 1000000000  37.95s user 19.61s system 95% cpu 1:00.17 total
+```
