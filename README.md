@@ -14,9 +14,13 @@ Super simple *nix offline password generator.
 - If you have `xclip`, it will automatically copy the generated password to your clipboard
 
 ## Install:
-- AUR: `yay -S randompassword`
+- AUR: soon:tm: <!-- `yay -S randompassword` -->
 - Manual (needs `curl`, optionally `sudo`):
 ```
 sudo curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/randompassword/main/randompassword.sh -o /usr/bin/randompassword
 sudo chmod +x /usr/bin/randompassword
+```
+- Run once (won't install, doesn't accept custom length, needs `curl`):
+```
+curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/randompassword/main/randompassword.sh | sh
 ```
