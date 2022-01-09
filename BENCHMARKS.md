@@ -1,5 +1,5 @@
 # Benchmarks
-> Run with the `time` command on a Ryzen 5800X
+> Run with the `time` command on Arch GNU/Linux running a Ryzen 5800X and 32GB dual-channel 3200MHz RAM
 
 ## Default (20 characters)
 Result: 0.004 seconds (instant)
