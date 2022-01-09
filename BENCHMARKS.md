@@ -39,7 +39,7 @@ Result: 6.134 seconds
 randompassword 100000000  3.78s user 2.10s system 95% cpu 6.134 total
 ```
 
-## 1,000,000,000 characters
+## 1,000,000,000 characters (1 gigabyte!)
 Result: 1 minute, 0.17 seconds
 ```
 randompassword 1000000000  37.95s user 19.61s system 95% cpu 1:00.17 total
