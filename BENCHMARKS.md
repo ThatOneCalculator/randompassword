@@ -26,16 +26,10 @@ Result: 0.062 seconds
 randompassword 1000000  0.05s user 0.02s system 96% cpu 0.062 total
 ```
 
-# 10,000,000
+## 10,000,000
 Result: 0.601 seconds
 ```
 randompassword 10000000  0.39s user 0.18s system 93% cpu 0.601 total
-```
-
-## 50,000,000
-Result: 2.99 seconds
-```
-randompassword 50000000  1.86s user 0.98s system 94% cpu 2.990 total
 ```
 
 ## 100,000,000
