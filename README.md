@@ -17,6 +17,6 @@ Super simple *nix offline password generator.
 - AUR: `yay -S randompassword`
 - Manual (needs `curl`, optionally `sudo`):
 ```
-sudo curl https://raw.githubusercontent.com/ThatOneCalculator/randompassword/main/randompassword.sh -o /usr/bin/randompassword
+sudo curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/randompassword/main/randompassword.sh -o /usr/bin/randompassword
 sudo chmod +x /usr/bin/randompassword
 ```
