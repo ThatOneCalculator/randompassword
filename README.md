@@ -1,6 +1,6 @@
 ![randompassword](https://user-images.githubusercontent.com/44733677/148674869-4d0cf5ee-5386-4e4f-97b0-b8b0535c80d3.gif)
 
-`randompassword`: A super simple, POSIX *nix offline password generator in just 130 bytes.
+`randompassword`: A super simple POSIX \*nix offline password generator in just 130 bytes.
 
 ---
 
