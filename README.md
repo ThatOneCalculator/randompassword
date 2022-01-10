@@ -9,7 +9,7 @@
 - 142 bytes of free storage
 - \*nix OS with `/bin/sh`
 - Coreutils with `tr`, `fold`, and `head`
-- (Optional) `xclip`
+- (Optional) `man`, `xclip`
 
 ## Features:
 - Custom password length, defaults to 20
