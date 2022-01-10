@@ -4,6 +4,8 @@
 
 ---
 
+## [[Requirements](/#requirements)] [[Features](/#features)] [[Usage](/#usage)] [[Install](/#install)] 
+
 ## Requirements:
 > TL;DR basically any \*nix system (i.e. Linux, \*BSD, macOS, Solaris) 
 - 289 bytes of free storage
