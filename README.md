@@ -1,23 +1,29 @@
 [![randompassword](https://user-images.githubusercontent.com/44733677/148674869-4d0cf5ee-5386-4e4f-97b0-b8b0535c80d3.gif)](#install)
 
-`randompassword`: A super simple POSIX \*nix offline password generator in just 142 bytes.
+`randompassword`: A super simple POSIX \*nix offline password generator
 
 ---
 
 ## Requirements:
 > TL;DR basically any \*nix system (i.e. Linux, \*BSD, macOS, Solaris) 
-- 142 bytes of free storage
+- 289 bytes of free storage
 - \*nix OS with `/bin/sh`
 - Coreutils with `tr`, `fold`, and `head`
 - (Optional) `man`, `xclip`
 
 ## Features:
 - Custom password length, defaults to 20
-  - `randompassword` makes a 20 character password
-  - `randompassword 35` makes a 35 character password
-- Mix of uppercase letters, lowercase letters, and numbers
+- Mix of uppercase letters, lowercase letters, and numbers, and optionally symbols
 - If you have `xclip`, it will automatically copy the generated password to your clipboard
 - [Blazing fast](/BENCHMARKS.md)
+
+## Usage:
+```sh
+randompassword        # 20 character password
+randompassword 35     # 35 character password
+randompassword -s     # 20 character password with symbols
+randompassword -s 35  # 35 character password with symbols
+```
 
 ## Install:
 ### AUR: soon:tm: 
