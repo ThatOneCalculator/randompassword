@@ -25,13 +25,9 @@
 yay -S randompassword 
 ``` -->
 ### Manual
-(needs `curl`, optionally `sudo`):
+(needs `curl`, `chmod`, optionally `sudo`):
 ```
-sudo curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/randompassword/main/randompassword -o /usr/bin/randompassword
+sudo curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/randompassword/main/randompassword -o /usr/bin/randompassword # Program
 sudo chmod +x /usr/bin/randompassword
-```
-### Run once
-(won't install, doesn't accept custom length, needs `curl`):
-```
-curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/randompassword/main/randompassword | sh
+sudo curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/randompassword/main/randompassword.1 -o /usr/share/man/man1/randompassword.1 # Manpage
 ```
