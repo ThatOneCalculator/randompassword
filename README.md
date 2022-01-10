@@ -25,6 +25,7 @@ randompassword        # 20 character password
 randompassword 35     # 35 character password
 randompassword -s     # 20 character password with symbols
 randompassword -s 35  # 35 character password with symbols
+randompassword -h     # Shows manpage
 ```
 
 ## Install:
