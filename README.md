@@ -34,9 +34,12 @@ randompassword -h     # Shows manpage
 yay -S randompassword 
 ``` -->
 ### Manual
-(needs `curl`, `chmod`, optionally `sudo`):
+(needs `curl`, `chmod`, optionally `sudo`, `mandb`):
 ```
-sudo curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/randompassword/main/randompassword -o /usr/bin/randompassword # Program
+# Install program
+sudo curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/randompassword/main/randompassword -o /usr/bin/randompassword
 sudo chmod +x /usr/bin/randompassword
-sudo curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/randompassword/main/randompassword.1.gz -o /usr/share/man/man1/randompassword.1.gz # Manpage
+# Manpage
+sudo curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/randompassword/main/randompassword.1.gz -o /usr/share/man/man1/randompassword.1.gz
+mandb
 ```
