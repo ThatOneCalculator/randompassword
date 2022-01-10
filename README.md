@@ -8,7 +8,7 @@
 
 ## Requirements:
 > TL;DR basically any \*nix system (i.e. Linux, \*BSD, macOS, Solaris) 
-- 290 bytes of free storage
+- 286 bytes of free storage
 - \*nix OS with `/bin/sh`
 - Coreutils with `tr`, `fold`, and `head`
 - (Optional) `man`, `xclip`
