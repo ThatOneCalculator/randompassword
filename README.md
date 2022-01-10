@@ -38,5 +38,5 @@ yay -S randompassword
 ```
 sudo curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/randompassword/main/randompassword -o /usr/bin/randompassword # Program
 sudo chmod +x /usr/bin/randompassword
-sudo curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/randompassword/main/randompassword.1 -o /usr/share/man/man1/randompassword.1 # Manpage
+sudo curl -fsSL https://raw.githubusercontent.com/ThatOneCalculator/randompassword/main/randompassword.1.gz -o /usr/share/man/man1/randompassword.1.gz # Manpage
 ```
