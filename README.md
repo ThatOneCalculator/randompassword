@@ -4,7 +4,7 @@
 
 ---
 
-## [[Requirements](/#requirements)] [[Features](/#features)] [[Usage](/#usage)] [[Install](/#install)] 
+## [[Requirements](#requirements)] [[Features](#features)] [[Usage](#usage)] [[Install](#install)] 
 
 ## Requirements:
 > TL;DR basically any \*nix system (i.e. Linux, \*BSD, macOS, Solaris) 
